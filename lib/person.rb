@@ -2,3 +2,8 @@
 #it will pass that argument (or arguments) to the #initialize method
 #and invoke that method. The code in #initialize will then run,
 #using any arguments from #new.
+class Person
+  def initialize(name)
+      @name = name
+  end
+end
