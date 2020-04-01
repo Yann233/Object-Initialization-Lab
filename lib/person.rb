@@ -3,8 +3,8 @@
 #and invoke that method. The code in #initialize will then run,
 #using any arguments from #new.
 
-#Define a Person class provides an #initialize method 
-#that accepts an argument for the person's name. 
+#Define a Person class provides an #initialize method
+#that accepts an argument for the person's name.
 #That argument should be stored within a @name instance variable.
 class Person
   def initialize(name)
